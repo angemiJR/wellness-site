@@ -1,0 +1,187 @@
+body {
+    width: 1400px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    width: 900px;
+    border-bottom: 2px solid #501C65;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    Top: 0;
+    overflow: hidden;
+    background: white;
+}
+
+nav {
+    font-family: "Tajawal", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a:visited {
+    color: #353535;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #a240a5
+}
+
+a {
+    text-decoration: none;
+    color: #501C65;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 125px;
+}
+
+.ul-top {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.big_picture {
+    width: 900px;
+    height: 640px;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+
+.title {
+    font-family: "Licorice", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #501C65;
+    text-align: center;
+    margin-top: 25px;
+}
+.textbox-intro {
+    text-align: center;
+    width: 600px;
+    margin-top: 50px;
+          
+}
+
+/* titles */
+
+p {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #353535;
+    line-height: 1.5;
+}
+
+/* standard text */
+
+.book_now {
+    width: 122px;
+    height: 56px;
+    background-color: #501C65;
+    font-family: "Tajawal", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0px 2px 6px #878786;
+    border: none;
+    text-transform: uppercase;
+}
+
+/* book btn */
+
+.book_now:hover {
+    transform: scale(1.05);
+    background-color: #a240a5;
+}
+
+/* book btn */
+
+.book_now:active {
+    background-image: url(../images/main/bubbles.gif);
+}
+
+
+.container-intro {
+    width: 900px;
+    height: 1000px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* book btn */
+
+footer {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid #501C65;
+    margin-bottom: 25px;
+}
+
+.footer_purple {
+    font-size: 10px;
+    color: #501C65;
+    margin-top: 25px;
+}
+
+.footer_gray {
+    font-size: 10px;
+    color: #353535;
+}
+
+.sm_footer_container {
+    width: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.fa-brands{
+    color: #501C65;
+}
+.container {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #501C65;
+    /* border: 2px solid #501C65; */
+}
+.small_images {
+    width: 420px;
+    margin-top: 25px;
+}
+.textbox {
+    width: 420px;
+    /* border: 2px solid #501C65; */
+}

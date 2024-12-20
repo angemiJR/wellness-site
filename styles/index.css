@@ -1,0 +1,38 @@
+
+
+
+
+.small_images {
+    width: 420px;
+    margin-top: 25px;
+}
+ 
+.textbox {
+    width: 420px;
+    /* border: 2px solid #501C65; */
+}
+  
+.container {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #501C65;
+    /* border: 2px solid #501C65; */
+}
+ 
+.help_container {
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
+    /* border: 2px solid #501C65; */
+}
+
+.btn_move {
+  position: relative;
+  top: -25px;
+  z-index: -1;
+}
